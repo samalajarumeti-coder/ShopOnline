@@ -1,0 +1,88 @@
+{
+  "mcpServers": {
+    "supabase": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@supabase/mcp-server-supabase@latest",
+        "--project-ref",
+        "hdcigjthmiohhnfcqnvl"
+      ],
+      "env": {
+        "SUPABASE_ACCESS_TOKEN": ""
+      },
+      "disabled": false,
+      "autoApprove": [
+        "list_tables",
+        "list_projects",
+        "execute_sql",
+        "apply_migration",
+        "get_project",
+        "list_extensions",
+        "list_migrations",
+        "get_logs",
+        "get_project_url",
+        "get_anon_key",
+        "get_service_role_key"
+      ]
+    },
+    "convenience-store": {
+      "command": "node",
+      "args": ["mcp-server/index.js"],
+      "env": {},
+      "disabled": false,
+      "autoApprove": [
+        "list_products",
+        "get_product",
+        "create_product",
+        "update_product",
+        "delete_product",
+        "update_stock",
+        "bulk_update_products",
+        "list_categories",
+        "create_category",
+        "update_category",
+        "delete_category",
+        "list_orders",
+        "get_order",
+        "update_order_status",
+        "get_order_stats",
+        "list_users",
+        "get_user",
+        "update_user_points",
+        "update_user_role",
+        "list_coupons",
+        "create_coupon",
+        "update_coupon",
+        "delete_coupon",
+        "list_banners",
+        "create_banner",
+        "update_banner",
+        "delete_banner",
+        "get_dashboard_stats",
+        "get_top_products",
+        "get_sales_report",
+        "get_low_stock_products",
+        "list_rewards",
+        "create_reward",
+        "list_challenges",
+        "create_challenge",
+        "list_flash_sale_products",
+        "add_to_flash_sale",
+        "remove_from_flash_sale",
+        "update_flash_sale_order",
+        "get_flash_sale_settings",
+        "update_flash_sale_settings",
+        "clear_all_flash_sale",
+        "list_scheduled_flash_sales",
+        "create_scheduled_flash_sale",
+        "update_scheduled_flash_sale",
+        ""delete_scheduled_flash_sale",
+        "list_flash_sale_templates",
+        "create_flash_sale_template",
+        "use_flash_sale_template",
+        "delete_flash_sale_template""
+      ]
+    }
+  }
+}

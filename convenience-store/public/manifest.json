@@ -1,0 +1,21 @@
+{
+  "name": "สะดวกซื้อ Delivery",
+  "short_name": "สะดวกซื้อ",
+  "description": "แอปสั่งสินค้าสะดวกซื้อ ส่งถึงบ้าน",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#007f3e",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["shopping", "food"],
+  "lang": "th",
+  "dir": "ltr"
+}
